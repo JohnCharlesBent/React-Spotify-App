@@ -1,0 +1,41 @@
+#app-header {
+  border-bottom: solid 1px #000;
+  padding: 1em 0;
+
+  .container {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: space-between;
+
+    .app-logo {
+      width: 60px;
+      height: 60px;
+    }
+
+    .currentUser {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: center;
+    }
+
+    span.user {
+      display: inline-block;
+      margin-left: 10px;
+      font-weight: 700;
+    }
+
+    span.user-pic {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      margin-left: 10px;
+      overflow: hidden;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

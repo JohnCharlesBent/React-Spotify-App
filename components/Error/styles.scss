@@ -1,0 +1,33 @@
+.errors-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+
+  background-image: url('https://media.giphy.com/media/sC0vNYxuMYU24/giphy.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  text-align: center;
+  a {
+    color: #fff;
+  }
+
+  .button {
+    border: solid 1px #fff;
+
+    &:hover {
+      background: #fff;
+      color: #000;
+    }
+  }
+
+}

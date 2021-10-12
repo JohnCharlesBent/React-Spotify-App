@@ -1,0 +1,15 @@
+.app-logo.login {
+  width: 100px;
+  margin-bottom: 2em;
+  margin-left: -10px;
+}
+
+.login-wrapper {
+  height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}

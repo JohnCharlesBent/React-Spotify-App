@@ -1,0 +1,35 @@
+.now-playing {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  right: 0;
+
+  background: rgba(#000, .8);
+  color: #fff;
+  width: 100%;
+  height: 100px;
+  -webkit-box-shadow: -1px -9px 16px -9px rgba(0,0,0,0.49);
+  -moz-box-shadow: -1px -9px 16px -9px rgba(0,0,0,0.49);
+  box-shadow: -1px -9px 16px -9px rgba(0,0,0,0.49);   
+
+  .container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: space-around;
+
+    padding: 2em 0;
+  }
+
+  .progress {
+    border: 1px solid #eee;
+    height: 4px;
+    border-radius: 3px;
+    overflow: hidden;
+    width: 400px;
+  }
+  .progress__bar {
+    background-color: #eee;
+    height: 4px;
+  }
+}

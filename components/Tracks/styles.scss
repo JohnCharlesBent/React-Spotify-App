@@ -1,0 +1,53 @@
+ul.tracklist {
+  padding: 0;
+  // margin: 3em 0;
+
+  li.track {
+    list-style-type: none;
+    padding: 1em;
+    margin-bottom: 3em;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    &:nth-child(odd) {
+      background: rgba(#efefef, .4);
+    }
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-start;
+    
+    width: 100%;
+
+    .cover-img {
+      width: 200px;
+      height: 200px;
+    }
+
+    .data {
+      margin-left: 2em;
+
+      div {
+        margin: 1em 0;
+        font-size: 1.2em;
+      }
+    }
+
+    #button {
+      margin-left: auto;
+      button {
+        background: transparent;
+        font-size: 1em;
+        text-transform: capitalize;
+        transition: all .3s ease-in-out;
+
+        &:hover {
+          background: #000;
+          color: #efefef;
+          cursor: hover;
+        }
+      }
+    }
+
+  }
+}
